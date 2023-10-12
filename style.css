@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(221, 235, 246, 0.94);
+}
+
+.container {
+    height: 50vh;
+    width: 38vw;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 5px 10px #53387c31;
+}
+
+.left {
+    background-color: #5a3df9;
+    height: 50vh;
+    width: 52vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.836);
+    align-items: center;
+    text-align: center;
+    row-gap: 15px;
+}
+.rtop{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.circle {
+    border-radius: 50%;
+    background-color: aliceblue;
+    height: 18%;
+    width: 65%;
+    background-color: #452ddd;
+    text-align: center;
+    padding: 18% 0;
+    line-height: 40px;
+}
+
+.rtop {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.563);
+}
+
+.ha.ha2 {
+    font-size: 11px;
+}
+
+.n76 {
+    font-size: 40px;
+}
+
+.n100 {
+    font-size: 10px;
+}
+
+.right {
+    background-color: white;
+    height: 48vh;
+    width: 50vw;
+    border-radius: 25px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.reaction {
+    background-color: #ff55551e;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.memory {
+    background-color: #ffb01e4b;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.verbal {
+    background-color: #00bb8f57;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.visual {
+    background-color: #1125d641;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button {
+    height: 30px;
+    width: 250px;
+    border-radius: 25px;
+    background-color: #5a3df9;
+}
+h5{
+    margin-left: 10px;
+}
+img{
+    margin-left: 10px
+}
+.c1gp{
+    margin-left: 100px;
+}
+
+.c2gp{
+    margin-left: 110px;
+}
+.end{
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
